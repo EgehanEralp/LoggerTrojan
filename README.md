@@ -1,1 +1,3 @@
 # LoggerTrojan
+Truva Atı yazılımı 2 ayrı scriptten oluşmaktadır. Bu scriptler “evilServer.py” ve “evilTrojan.py” olarak adlandırılmıştır.
+	Truva atı zararlı yazılımı, tek başına çalışabilir ve herhangi bir taşıyıcı dosyaya ihtiyaç duymaz. “evilServer.py” Scripti sayesinde, kurbanın bilgisayarına enjekte edilen ve çalıştırılan truva atı (çalıştırılan “evilTrojan.py” scripti), saldırganın bilgisayarında oluşturulmuş Local bir server’a içeriden bilgiler sızdırmaktadır. Bizim oluşturduğumuz “evilTrojan.py” scripti, kurbanın bilgisayarında bir key logger olarak çalışır ve localimizde bulunan “evilServer” a, gerçekleşen tüm aktiviteleri sızdırır/raporlar.
